@@ -1,0 +1,41 @@
+body{
+background-image: url(a.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Roboto', sans-serif;    
+}
+form{
+    font-size: large;
+    font-style: initial;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgb(251, 251, 251);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 6px 8px rgb(13, 13, 14);
+    padding: 15px 10px;
+    border-radius: 50px;
+    width: 400px;
+    color: rgb(5, 4, 4);
+
+    
+}
+h1{
+    margin-bottom: 1px;
+        color: rgb(16, 17, 20);
+        text-transform: uppercase;
+
+}
+div2{
+
+    color: brown;
+}
+a{
+    color:black;
+}
+a:hover{
+    color: blue;
+}

@@ -1,0 +1,102 @@
+body {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 80%;
+    margin: 50px;
+}
+
+.box {
+    background: #fff;
+    display: flex;
+}
+
+.left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.right {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background: #000;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row .group {
+    flex-basis: 45%;
+}
+
+input {
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #e55a00;
+}
+
+button {
+    background: #e55a00;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.left h3 {
+    color: #e55a00;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.right h3 {
+
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
